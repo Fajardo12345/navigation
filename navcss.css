@@ -1,0 +1,91 @@
+body 
+{ background-image: url("mha.gif");
+	background-color:lightskyblue;
+	font-family: monospace;
+	font-size:20;
+	text-align: center;
+
+
+  margin: 0;}
+
+a.active:hover
+{background-color:lightblue;
+color:black;}
+ul
+{list-style-type:none;}
+li
+{display:block;
+width:100px;}
+li a:hover
+{color:black;
+font-size:20pt;
+font-family:monospace;
+font-weight:bold;
+padding:3pt;
+background-color:lightblue;}
+ul li a.active
+{cursor:progress;}
+ul li a
+{cursor:zoom-in;}
+.sample
+{background-color:lightblue;
+padding:2pt;}
+
+
+
+.sample1 .dropdown
+{position:relative;
+display:inline;}
+
+
+.sample1 .dropdown-content
+{display:none;
+position:absolute;
+
+background-color:pink;
+
+
+min-width:100px;
+z-index:1;
+}
+
+.sample1 .dropdown:hover .dropdown-content
+{
+display:inline;}
+
+
+
+.sample2 .dropdown
+{position:relative;
+display:inline;}
+
+.sample2 .dropdown-content
+{display:none;
+position:absolute;
+background-color:pink;
+min-width:100px;
+z-index:1;
+}
+
+.sample2 .dropdown:hover .dropdown-content
+{
+display:inline;}
+
+
+.sample3 .dropdown
+{position:relative;
+display:inline;}
+
+.sample3 .dropdown-content
+{display:none;
+position:absolute;
+background-color:pink;
+min-width:100px;
+z-index:1;
+}
+
+.sample3 .dropdown:hover .dropdown-content
+{
+display:inline;}
+
+
